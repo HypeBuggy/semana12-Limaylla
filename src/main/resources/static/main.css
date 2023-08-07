@@ -1,3 +1,65 @@
 body{
-    background-color: rgb(231, 201, 172);
+    background-color: rgb(0, 255, 170);
 }
+/* Estilo para el cuerpo de la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  th, td {
+    border: 1px solid #1f43a5;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Estilo para las celdas de encabezado */
+  th {
+    background-color: #962a90;
+  }
+  
+  /* Estilo para los títulos */
+  h1, h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el separador horizontal */
+  hr {
+    margin: 20px 0;
+  }
+  
+  /* Estilo para el emoji */
+  .emoji {
+    font-size: 24px;
+  }
+  
+  /* Estilo para el contenedor principal */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilo para el listado completo */
+  .listado-completo {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el listado de instrumentos y músicos */
+  .listado {
+    margin: 0 auto;
+  }
+  
+  /* Estilo para la tabla de instrumentos */
+  #instrumentos-table {
+    width: 100%;
+  }
+  
+  /* Estilo para la tabla de músicos */
+  #musicos-table {
+    width: 100%;
+  }
